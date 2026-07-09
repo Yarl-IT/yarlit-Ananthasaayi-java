@@ -3,7 +3,7 @@ class WhileLoopText {
 		int x = 1;
 		
 		while (x<=15) {
-			System.out.println("Yarl It of Technology"+);
+			System.out.println("Yarl It of Technology");
 			
 			x++;
 		}
