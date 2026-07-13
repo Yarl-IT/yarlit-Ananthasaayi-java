@@ -8,14 +8,14 @@ class PasswordChecker{
 		int attempts=3;
 		
 		while(attempts>0){
-			System.out.println("Enter Password:");
+			System.out.print"Enter Password:");
 			String password = sc.nextLine();
 			if (password.equals(correctpassword)){
-			System.out.println("Access Granted");
+			System.out.print("Access Granted");
 			break;
 			}else{
 				attempts--;
-				System.out.println("Wrong password.Attempts left:"+ attempts);
+				System.out.print("Wrong password.Attempts left:"+ attempts);
 			}
 		}	
 		if (attempts==0){
