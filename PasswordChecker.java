@@ -8,7 +8,7 @@ class PasswordChecker{
 		int attempts=3;
 		
 		while(attempts>0){
-			System.out.print"Enter Password:");
+			System.out.print("Enter Password:");
 			String password = sc.nextLine();
 			if (password.equals(correctpassword)){
 			System.out.print("Access Granted");
