@@ -5,7 +5,7 @@ class ShoppingBill{
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Enter item Price:");
-		double price =sc.nextInt();
+		double price =sc.nextDouble();
 		
 		System.out.print("Enter quantity:");
 		int quantity =sc.nextInt();
