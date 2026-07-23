@@ -7,10 +7,10 @@ class LargestNumber{
 		System.out.print("Enter first Number:");
 		int a =sc.nextInt();
 		
-		System.out.print("Enter first Number:");
+		System.out.print("Enter Second Number:");
 		int b =sc.nextInt();
 		
-		System.out.print("Enter first Number:");
+		System.out.print("Enter Third Number:");
 		int c =sc.nextInt();
 		
 		if(a>=b&&a>=c){
